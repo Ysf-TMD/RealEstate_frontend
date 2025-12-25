@@ -1,0 +1,32 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "installation": true,
+    "locale": [
+      "en"
+    ],
+    "support": {
+      "link": "http://example.com",
+      "email": "example@example.com"
+    }
+  },
+  "locations": [
+    "lcard-1",
+    "advanced_settings"
+  ],
+  "settings": {
+    "text": {
+      "name": "settings.text",
+      "type": "text",
+      "required": false
+    }
+  },
+  "advanced": {
+    "title": "advanced.title"
+  }
+}
