@@ -17,7 +17,7 @@ export async function GET(){
             executablePath: isDev
                 ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
                 : await chromium.executablePath(),
-            headless: chromium.headless,
+            headless: true,
         });
         if (!browser) {
             throw new Error("Failed to launch browser")
